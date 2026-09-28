@@ -10,8 +10,8 @@ JavaFX health dashboard assignment covering:
 - HTTP request + JSON parsing
 
 ## Demo Login
-Email: demo@healthlens.com
-Password: 1234
+Email: anirban@gmail.com
+Password: 2307023
 
 ## Run
 Open the project in IntelliJ IDEA as a Maven project, then run:
