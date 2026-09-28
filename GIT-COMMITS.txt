@@ -1,0 +1,22 @@
+Suggested real commit sequence (do not fake older dates):
+
+1. git add .
+   git commit -m "Update HealthLens login and fullscreen navigation"
+
+2. git add .
+   git commit -m "Add daily goals streak coach and achievements"
+
+3. git add .
+   git commit -m "Add health trends risk insights and challenges"
+
+4. git add .
+   git commit -m "Improve records search CRUD and health report export"
+
+5. git add .
+   git commit -m "Refine responsive dashboard and documentation"
+
+Then:
+   git push origin main
+
+If your local repository already has the previous HealthLens work, copy these updated
+source files into that repository, then make the commits one stage at a time.

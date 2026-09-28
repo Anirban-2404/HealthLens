@@ -1,0 +1,46 @@
+HEALTHLENS 5-MINUTE DEMO CHECKLIST
+
+1. Login
+   anirban@gmail.com
+   2307023
+
+2. Dashboard features
+   Overall health score, daily goals, streak, health status,
+   Health Coach, achievements, weather advice, today vs 7-day average,
+   personalized challenge and smart summary.
+
+3. JavaFX
+   Show Login, Dashboard, Records, Analysis.
+   Point out BorderPane, VBox, HBox, StackPane, TableView,
+   TextField, PasswordField, ComboBox, DatePicker, ProgressBar and chart.
+
+4. CRUD + useful tools
+   Add a record -> CREATE/READ.
+   Edit Selected -> UPDATE.
+   Delete Selected -> DELETE.
+   Search/filter records and export a HealthLens text report.
+
+5. OOP
+   HealthRecordBase = abstract class.
+   HealthMetric = interface.
+   HealthRecord = inheritance + interface implementation.
+
+6. Concurrency
+   Executors.newFixedThreadPool(3), executor.submit(...), Platform.runLater(...).
+   Database analysis and weather HTTP work run away from the JavaFX UI thread.
+
+7. SQLite
+   DatabaseManager creates users and health_records.
+   Water is stored/read as a decimal value in litres.
+   health_records.user_id is a foreign key to users.id.
+
+8. HTTP + JSON
+   WeatherService uses HttpClient, receives JSON, and parses it with Gson.
+
+9. Responsive + fullscreen
+   Navigation width is bound to stage.widthProperty().
+   The primary Stage is reused and maximized after scene changes.
+   The Fullscreen button can toggle true fullscreen mode.
+
+10. Git/GitHub
+   Make meaningful commits and push each feature stage to the HealthLens repository.
