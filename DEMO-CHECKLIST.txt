@@ -1,0 +1,43 @@
+HEALTHLENS 2-MINUTE DEMO CHECKLIST
+
+1. Login:
+   demo@healthlens.com
+   1234
+
+2. JavaFX:
+   Show Login, Dashboard, Records, Analysis.
+   Point out BorderPane, VBox, HBox, StackPane, TableView,
+   TextField, PasswordField, ComboBox, DatePicker, ProgressBar and charts.
+
+3. CRUD:
+   Add a record -> it appears in History (CREATE/READ).
+   Select it -> Edit Selected -> save (UPDATE).
+   Select it -> Delete Selected (DELETE).
+
+4. OOP:
+   Open:
+   model/HealthRecordBase.java (abstract class)
+   model/HealthMetric.java (interface)
+   model/HealthRecord.java (inheritance + implementation).
+
+5. Concurrency:
+   Open Main.java and point to:
+   Executors.newFixedThreadPool(3)
+   executor.submit(...)
+   Platform.runLater(...)
+   Explain that DB, API and analysis run off the JavaFX UI thread.
+
+6. SQLite:
+   Open DatabaseManager.java.
+   Show users and health_records tables and the foreign key user_id.
+
+7. HTTP + JSON:
+   Open WeatherService.java.
+   Show HttpClient -> HTTP response -> JsonParser -> JavaFX label.
+
+8. Responsive UI:
+   Show nav.prefWidthProperty().bind(stage.widthProperty().multiply(0.18));
+   Resize the application window during the demo.
+
+9. Git:
+   Make real commits while developing and push to GitHub.

@@ -1,0 +1,15 @@
+.root { -fx-font-family: "Segoe UI"; -fx-background-color: #f4f7fb; }
+.title { -fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: #17324d; }
+.subtitle { -fx-font-size: 14px; -fx-text-fill: #6b7c8f; }
+.card { -fx-background-color: white; -fx-background-radius: 16; -fx-padding: 18;
+        -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.10), 10, 0, 0, 3); }
+.nav { -fx-background-color: #17324d; }
+.nav-button { -fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 14px;
+              -fx-alignment: CENTER_LEFT; -fx-padding: 12 18; }
+.nav-button:hover { -fx-background-color: #28516f; }
+.primary { -fx-background-color: #2f80ed; -fx-text-fill: white; -fx-font-weight: bold;
+           -fx-background-radius: 8; -fx-padding: 10 18; }
+.danger { -fx-background-color: #e74c3c; -fx-text-fill: white; -fx-background-radius: 8; }
+.input { -fx-background-radius: 8; -fx-border-radius: 8; -fx-padding: 8; }
+.metric { -fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #17324d; }
+.muted { -fx-text-fill: #6b7c8f; }

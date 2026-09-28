@@ -1,0 +1,7 @@
+com\healthlens\service\HealthAnalyzer.class
+com\healthlens\Main.class
+com\healthlens\model\HealthRecordBase.class
+com\healthlens\model\HealthRecord.class
+com\healthlens\database\DatabaseManager.class
+com\healthlens\model\HealthMetric.class
+com\healthlens\service\WeatherService.class
